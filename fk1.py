@@ -29,7 +29,7 @@ def get_product_info(url):
     name = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/p[1]/span[2]/text()')[0]
     price = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/p[2]/span[2]/text()')[0]
     status_temp = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/div[1]/div[2]/text()')[0]
-    status = status_temp[3:-2]
+    status = status_temp[4:-3]
     text = f'{name, price, status}'
     logger.info(text)
     return text
