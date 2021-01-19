@@ -15,7 +15,7 @@ url_list = ['https://paofu.fr/product/29.html',
 # bot_token
 bot_token = '1509791380:AAFjvMxhUsIw0Fz6mYTR1UNwHRRVqKrVauY'
 # 监控间隔,单位秒
-send_time = 60
+send_time = 5
 
 
 def get_product_info(url):
