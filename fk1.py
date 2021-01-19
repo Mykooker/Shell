@@ -28,8 +28,8 @@ def get_product_info(url):
     selector = etree.HTML(response.text)
     name = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/p[1]/span[2]/text()')[0]
     price = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/p[2]/span[2]/text()')[0]
-    status_tamp = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/div[1]/div[2]/text()')[0]
-    status = status
+    status_temp = selector.xpath('//*[@id="zlkbbody"]/div[3]/div/div/fieldset/div/div[2]/div/form/div[1]/div[2]/text()')[0]
+    status = status_temp
     text = f'{name, price, status}'
     logger.info(text)
     return text
