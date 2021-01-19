@@ -13,7 +13,7 @@ url_list = ['https://paofu.fr/product/29.html',
              'https://paofu.fr/product/25.html',
             'https://paofu.fr/product/19.html']
 # bot_token
-bot_token = '1509791380:AAFOpE7Hr2O3n0c0st7yNqsyAxW9i7Lj9dg'
+bot_token = '1509791380:AAFI8Na_zha_9b5HvZgFiNvACqBhD0zgKIo'
 # 监控间隔,单位秒
 send_time = 60
 
