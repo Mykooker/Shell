@@ -9,11 +9,13 @@ logger = logging.getLogger(__name__)
 
 # 商品列表,可以放置多个链接
 url_list = ['https://paofu.fr/product/29.html',
+            'https://paofu.fr/product/30.html',
+             'https://paofu.fr/product/25.html',
             'https://paofu.fr/product/19.html']
 # bot_token
 bot_token = '1509791380:AAFOpE7Hr2O3n0c0st7yNqsyAxW9i7Lj9dg'
 # 监控间隔,单位秒
-send_time = 10
+send_time = 60
 
 
 def get_product_info(url):
