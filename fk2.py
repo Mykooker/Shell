@@ -15,7 +15,9 @@ url_list = ['https://paofu.fr/product/29.html',
             'https://ip.ci/product/53.html',
             'https://ip.ci/product/47.html']
 # bot_token
-bot_token = '1509791380:AAFjvMxhUsIw0Fz6mYTR1UNwHRRVqKrVauY'
+#bot_token = '1509791380:AAFjvMxhUsIw0Fz6mYTR1UNwHRRVqKrVauY'
+bot_token = '1507075251:AAE84kIDtFRbr1_A47k0m7_Yj4qHTDxNnew'
+
 # 监控间隔,单位秒
 send_time = 60
 
