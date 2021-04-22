@@ -1,0 +1,15 @@
+debug: true
+site:
+  brand: 服务器状态
+  cookiename: nezha-dashboard
+  theme: hotaru
+  customcode: ""
+  viewpassword: ""
+oauth2:
+  type: ""
+  admin: Mykooker
+  clientid: 42b0001bd289ccba2dea
+  clientsecret: 97a3c091385370cf5ec1bfd98a22030a8b0d8ca8
+httpport: 80
+grpcport: 5555
+enableipchangenotification: false
